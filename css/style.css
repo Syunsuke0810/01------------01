@@ -1,0 +1,654 @@
+/* ここから下に記載していく */
+.all{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header{ 
+  background-color :#fafafa;
+  padding:2%;
+  margin: auto;
+  display:flex;
+  justify-content:space-between; 
+  align-items: center;
+   
+}
+
+.header-list{
+  font-size: 18px;
+  display:flex;
+  justify-content:space-between; 
+  width: 500px;
+
+}
+
+.header_logo{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+ul{
+  display:flex;
+  list-style:none;
+  margin-right: 100px;
+  }
+li{
+  margin-left:40px;
+}
+
+a{
+  text-decoration:none;
+  color:#333;
+}
+
+li{
+  margin-left:40px;
+}
+
+a{
+  text-decoration:none;
+  color:#333;
+}
+
+.hero{
+  position: relative;
+
+}
+
+.container{
+  width: 100%;
+}
+
+.cheese{
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding:0;
+  margin:0;
+  font-size:45px;
+  color: white;
+  /* white-space nowrap　1行にまとめる */
+  white-space: nowrap;
+  font-weight: bold;
+
+}
+.cheese2{
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding:0;
+  margin:0;
+  font-size:20px;
+  color: white;
+}
+
+.section2{
+  
+  height: 400px;
+  background-color: #fafafa;
+}
+
+#h2about{
+  text-align: center;
+  font-size: 24px;
+  color: #ffd61a;
+ 
+  font-weight: bold;
+  font-weight: 800;
+  padding:30px 30px;
+
+}
+.pcheese{
+  text-align: center;
+  line-height: 100%;
+  font-size: 16px;
+  
+  /* paddingを入力するとABOUTとの距離が空きすぎる */
+}
+.h2cheese{
+  text-align: center;
+  
+  padding: px;
+  margin: px;
+  font-size: 18px;
+  line-height: 200%
+  
+}
+.img4{
+  
+  display:flex   
+}
+
+.course{
+  background-color: white;
+  max-width: ;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.case{
+  background-color: #fafafa;
+}
+
+#h2COURSE{
+color: #333;
+font-size: 24px;
+font-weight: bold;
+margin-top: 60px;
+margin-bottom: 30px;
+}
+
+.p2cheese{
+  text-align: center;
+  line-height: 100%;
+  margin-bottom: 60px;
+  font-size: 16px;
+}
+
+.case{
+  margin: 0 auto ;
+}
+
+
+.case-list {
+  margin: px;
+}
+
+.case-item {
+  display: flex;
+  margin: 40 auto;
+}
+
+.case-item-text {
+  
+  font-size: 35px;
+  margin: 0 auto ;
+  
+  
+  
+}
+
+.textbox{
+  width: 50%;
+  
+}
+
+.item-text{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 120px;
+  font-weight: bold;
+  
+}
+
+.item-text1{
+  text-align: left;
+  margin-left: 50px;
+  width: 480px;
+}
+
+/* 交互のやつ２段目 */
+
+.item-text2{
+  text-align: left;
+  
+  margin-top: 120px;
+  font-weight: bold;
+  margin-bottom: 40px
+
+}
+
+.item-text3{
+  text-align: left;
+  margin-right: 50px;
+  width: 480px;
+  ;
+
+}
+
+/* 交互のやつの３段目 */
+/* 強引に合わせたけど１段目をコピーしても使えない */
+.item-text4{
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 120px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  
+}
+
+.item-text5{
+  text-align: left;
+  margin-right: 300px;
+  margin-left: 50px;
+  width: 480px;
+}
+
+
+.case-item-img{
+  width: 50%;
+}
+
+.item-text{
+  font-size: 18px;
+  text-align: left;
+  display: flex;
+  padding-right: auto;
+  
+}
+
+/* 交互のやつはここまで↑↑↑↑↑↑↑ */
+
+/* ここからニュース */
+#news{
+  font-size: 24px;
+  color: #ffd61a;
+  font-weight: bolder;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+#news2{
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+/* ニュースの写真とテキストはここから */
+
+.imagenews{
+  margin-bottom: 60px;
+  text-align: left;
+  display: flex; 
+  justify-content:space-around
+  
+}
+
+.listimage{
+  width: 300px
+
+}
+
+/* ニュースのホバーはここ */
+.listimage:hover{
+  opacity:0.5;
+	transition:0.3s;
+}
+
+.imagetext{
+  margin-top: 30px;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+/* ACCESEが右にはみ出している */
+/* 検証ツールを使ってwidth:96%にした */
+.copo{
+  width: 96%;
+  height: 100px;
+  margin: %;
+  padding: 2%;
+  background-color: #fafafa ;
+
+}
+
+#ACCESE2{
+  width: 100%;
+  font-size: 24px;
+  color: #ffd61a;
+font-weight: bold;
+background-color: #fafafa;
+
+.kaisya{
+font-size: 18px;
+background-color: #fafafa;
+
+}
+
+}
+iframe{
+  width: 100%;
+  height: 300px;
+  aspect-ratio: 16/9;
+  background-color: #fafafa;
+}
+
+.scoolaccess{
+  text-align: center;
+  font-size: 16px;
+  height: 260px;
+  background-color: #fafafa;
+  padding: 2%;
+  line-height:30px
+}
+
+.scoolaccess2{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: inline-block;
+  text-align: left;
+  background-color: #fafafa;
+}
+
+#CONTACT{
+  font-size: 24px;
+  color: #ffd61a;
+font-weight: bold;
+margin-top: 60px;
+margin-bottom: 30px;
+
+}
+
+.setumei{
+  margin-bottom: 60px;
+}
+
+.CONTANTIN{
+  /* margin: 3%; */
+  margin-bottom: 70px;
+  line-height:30px
+  
+
+}
+
+/* MOREの背景とかはここから下 */
+/* MOREを上下中央にしたい */
+.more{
+  
+  display: inline-block;
+  background-color: #ffd61a;
+  color: white;
+  padding-top: 20px;
+  font-size: 18px;
+  padding-left: px;
+  padding-right: px;
+  margin-bottom: 60px;
+  width: 300px;
+  height: 40px;
+  
+}
+
+.more:hover {
+  opacity:0.5;
+	transition:0.3s;
+  }
+
+/* ここからコンタクトフォーム */
+html {
+  overflow-y: scroll;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+  font-style: normal;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,th {
+  text-align: left;
+}
+q:before,q:after {
+  content: '';
+}
+object,embed {
+  vertical-align: top;
+}
+hr,legend {
+  display: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+}
+img,abbr,acronym,fieldset {
+  border: 0;
+}
+li {
+  list-style-type: none;
+}
+sup {
+  vertical-align: super;
+  font-size: 0.5em;
+}
+img {
+  vertical-align: top;
+}
+i {
+  font-style: normal;
+}
+/*----リセットcss*----/
+
+/*デザインcss↓*/
+.lookcheese{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.formuspace{
+  line-height: 30px;
+  display: table;
+  height: 70px;
+  vertical-align: middle;
+  text-align: left;
+  
+}
+
+
+.box_con {
+  max-width: 900px;
+  margin: 0  auto;
+  padding-bottom: 100px;
+  margin-bottom: 70px;
+}
+
+.box_con form {
+  width: 100%;
+}
+.box_con form table {
+  width: 100%;
+}
+.box_con form table tr {
+  position: relative;
+}
+.box_con form table tr:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  border-bottom: dotted #cdcdcd 1px;
+}
+.box_con form table tr th {
+  width: 30%;
+  font-weight: normal;
+  padding: 1em .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box_con form table tr th span {
+  background: #cd6f55;
+  padding: 0 .3em;
+  color: #fff;
+  margin-left: .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.box_con form table tr td {
+  padding: 1em .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box_con form table tr .box_br {
+  display: block;
+}
+.box_con form table tr select {
+  border: 1px solid #97ae88;
+}
+.box_con form table tr label input {
+  cursor: pointer;
+  display: none;
+  vertical-align: middle;
+}
+.box_con form table tr .radio02-input + label {
+  padding-left: 23px;
+  margin-right: 20px;
+  position: relative;
+}
+.box_con form table tr .radio02-input + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.box_con form table tr .radio02-input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  background: #97ae88;
+  border-radius: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.box_con form table tr select, .box_con form table tr input, .box_con form table tr textarea {
+  width: 100%;
+  height: 3em;
+  
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.box_con form table tr textarea {
+  height: 10em;
+}
+
+/*プライバシーのデザインcss↓*/
+.con_pri {
+  max-width: 700px;
+  margin: 0  auto;
+}
+
+.con_pri .box_pri {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #cdcdcd;
+  background: #f7f7f7;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 20px;
+  padding: 20px 55px;
+}
+
+
+.con_pri .box_pri .box_tori {
+  text-align: left;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.con_pri .box_pri .box_tori h4 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  font-size: 150%;
+}
+
+.con_pri .box_pri .box_tori .txt {
+  padding: 0 20px;
+  text-align: left;
+}
+
+.con_pri .box_pri .box_num {
+  margin-top: 30px;
+}
+
+.con_pri .box_pri .box_num h4 {
+  font-weight: normal;
+  font-size: 113%;
+}
+.con_pri .box_pri .box_num .txt {
+  padding: 10px 0 0 20px;
+  text-align: left;
+}
+
+
+.box_check {
+  text-align: center;
+  margin: 1em auto;
+}
+.box_check label {
+  display: inline-block;
+}
+.box_check label span {
+  margin-left: .3em;
+}
+
+.btn {
+  text-align: center;
+}
+.btn input {
+  display: inline-block;
+  background: #eee;
+  padding: .5em 4em;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btn input:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+
+.toiawase{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* 確認ボタンのホバーがうまくいかない */
+/* inputを入れたら出来た。検証ツール参照 */
+.btn input:hover {
+  background-color: #cbc0c3;
+  }
+
+.footer{
+ 
+  background-color:#707070;
+  color: white;
+  padding:2%;
+  margin: auto;
+  text-align: center;
+  
+}
+
